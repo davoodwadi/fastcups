@@ -55,5 +55,5 @@ def handle_disconnect():
 @patch
 def count(self:L): return len(self)
 
-socketio.run(app, port = 10000)
+socketio.run(app, host = '0.0.0.0', port = 10000)
 
